@@ -155,15 +155,18 @@
 CSV files for download
 Births and deaths: Year ended December 2020 – CSV
 */
-getData();
 
+
+//* Display data(DATA.csv) in browser
+getData();
 async function getData() {
 const response = await fetch ('DATA.csv');
 const data = await response.text();
 console.log(data);
 
-
+//* Row Selection(selection of row we need to use)
 const rows = data.split("\n");
+//*const rows = data.split("\n").slice(1); if you want to remove the first element of csv.
 rows.forEach(elt => { 
     const row = elt.split(',');
     const Mothers_Age = row[0]
