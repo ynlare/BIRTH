@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Datavisio.css">
+    <title>Analysis </title>
+</head>
+<body>
+    <header>
+    <nav>
+<ul>
+
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/Data.html">Data</a></li>
+    <li><a href="/Analysis.html">Visualization</a></li>
+    <li><a href="/Purpose.html">Purpose</a></li>
+
+</ul> 
+</nav>
+<p>Data visualization</p>
+</header>
+  <br>
+  <!------------------------------------------------------------------------------------------------>
+  <div class="grid">
+    
+    <div class="row1">
+
+        <h1>Pie Chart</h1>
+
+        <div id="piechart"></div>
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+        <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        
+        // Draw the chart and set the chart values
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+          ['Mothers_Age,', 'Count_2017'],
+          ['Under 15', 18],
+          ['15–19', 2298],
+          ['20–24', 9387],
+          ['25–29', 16737],
+          ['30–34', 18795],
+          ['35–39', 9933],
+          ['40–44', 2292],
+          ['45 and over', 150]
+        ]);
+        
+          // Optional; add a title and set the width and height of the chart
+          var options = {'title':'Births/age of mothers (2017)'};
+        
+          // Display the chart inside the <div> element with id="piechart"
+          var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+          chart.draw(data, options);
+        }
+        </script>
+        </div>
+<!------------------------------------------------------------------------------------------------>
+
+        <div class="row2">
+
+            <h1>Pie Chart</h1>
+
+            <div id="piechart1"></div>
+            
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            
+            <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+            
+            // Draw the chart and set the chart values
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+              ['Mothers_Age,', 'Count_2018'],
+              ['Under 15', 15],
+              ['15–19', 2061],
+              ['20–24', 9387],
+              ['25–29', 16227],
+              ['30–34', 18708],
+              ['35–39', 10023],
+              ['40–44', 2145],
+              ['45 and over', 153]
+            ]);
+            
+              // Optional; add a title and set the width and height of the chart
+              var options = {'title':'Births/age of mothers (2018)'};
+            
+              // Display the chart inside the <div> element with id="piechart1"
+              var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+              chart.draw(data, options);
+            }
+            </script>
+
+            </div>
+<!------------------------------------------------------------------------------------------------>
+            <div class="row3">
+
+
+
+                <h1>Pie Chart</h1>
+
+                <div id="piechart2"></div>
+                
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                
+                <script type="text/javascript">
+                // Load google charts
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+                
+                // Draw the chart and set the chart values
+                function drawChart() {
+                  var data = google.visualization.arrayToDataTable([
+                  ['Mothers_Age,', 'Count_2019'],
+                  ['Under 15', 21],
+                  ['15–19', 1974],
+                  ['20–24', 8511],
+                  ['25–29', 16428],
+                  ['30–34', 19740],
+                  ['35–39', 10548],
+                  ['40–44', 2268],
+                  ['45 and over', 153]
+                ]);
+                
+                  // Optional; add a title and set the width and height of the chart
+                  var options = {'title':'Births/age of mothers (2019)'};
+                
+                  // Display the chart inside the <div> element with id="piechart2"
+                  var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+                  chart.draw(data, options);
+                }
+                </script>
+
+
+
+
+                </div>
+     
+<!------------------------------------------------------------------------------------------------>       
+
+    <div class="row4">
+
+
+        <h1>Pie Chart</h1>
+
+        <div id="piechart3"></div>
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+        <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        
+        // Draw the chart and set the chart values
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+          ['Mothers_Age,', 'Count_2020'],
+          ['Under 15', 12],
+          ['15–19', 1881],
+          ['20–24', 7977],
+          ['25–29',15705],
+          ['30–34', 19515],
+          ['35–39', 10233],
+          ['40–44', 2091],
+          ['45 and over', 159]
+        ]);
+
+// Optional; add a title and set the width and height of the chart
+var options = {'title':'Births/age of mothers (2020)'};
+                
+                // Display the chart inside the <div> element with id="piechart3"
+                var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
+                chart.draw(data, options);
+              }
+              </script>
+
+</div>
+
+<!------------------------------------------------------------------------------------------------>  
+
+
+<!------------------------------------------------------------------------------------------------>  
+<footer>
+    <p>© 2021 footer </p>
+</footer>
+
+<script src="born.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</body>
+</html>

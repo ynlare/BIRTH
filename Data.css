@@ -1,0 +1,66 @@
+
+html{ 
+    background-image: url('Photos/wesley-tingey-gdH_nbsgizM-unsplash (2).jpg'); 
+
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 10px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  
+  
+  td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+   tr{background-color: rgb(155, 168, 135)}
+  
+   tr {background-color:rgb(180, 180, 130)}
+  
+   footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+   
+
+ }
+
+
+  
