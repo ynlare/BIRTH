@@ -66,14 +66,24 @@ article {
   .design {
   text-align: center;
   text-transform: uppercase;
-  color: #4CAF50;
+  color: blue;
 padding-bottom: 20px; 
 text-transform: capitalize;
 text-decoration: double;
-size :500px;
-
+size : 800px;
+text-size-adjust: 800px;
 
 }
 
+.demo.design {
+  width:256px;
+  width:256px;
+background-color:#4CAF50;
+padding-bottom: 20px;
+background-position: center;
 
+}
 
+.list{ text-align: center;
+color: red;
+}
