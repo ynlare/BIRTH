@@ -319,3 +319,11 @@ var year2020 = [
 } );
 
 //*****************https://rbql.org/#demo*******************************//
+
+//***https://www.npmjs.com/package/rbql***//
+
+
+//****https://www.youtube.com/watch?v=povMqm4cttM&t=298s****//
+
+
+//**https://www.youtube.com/watch?v=QKAAIWJp6cU&t=639s**//
